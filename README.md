@@ -1,4 +1,3 @@
-# QuanTonic-Reactor-QT-Reactor-
 # QuanTonic Reactor (QT Reactor)
 
 **A Quantum-Coherent Thermophotovoltaic Reactor for Ultra-Efficient Energy Conversion**
