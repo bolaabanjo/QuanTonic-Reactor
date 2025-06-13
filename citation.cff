@@ -1,1 +1,9 @@
-
+cff-version: 1.2.0
+message: "If you use QuanTonic Reactor, please cite this repo."
+authors:
+  - family-names: Banjo
+    given-names: Bola
+title: "QuanTonic Reactor: Quantum-Tuned Thermophotonic Energy System"
+version: 0.1.0
+date-released: 2025-06-10
+doi:
