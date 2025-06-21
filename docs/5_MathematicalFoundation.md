@@ -69,7 +69,7 @@ $$
 The total photon flux over the photovoltaic-active band is:
 
 $$
-\Φ_total(T) = ∫ from λ_g to λ_max [(ε(λ) * I(λ, T) * λ) / hc] dλ
+Φ_total(T) = ∫ from λ_g to λ_max [(ε(λ)I(λ, T)λ) / hc] dλ
 $$
 
 Where λ_g is the wavelength corresponding to the PV material’s bandgap.
