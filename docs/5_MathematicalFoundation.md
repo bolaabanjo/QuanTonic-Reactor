@@ -82,7 +82,7 @@ The photovoltaic (PV) layer converts incident photons to electrical current. The
 The photovoltaic efficiency η_pv is expressed as:
 
 $$
-\eta_{\text{pv}} = \frac{P_{\text{electrical}}}{P_{\text{incident}}}
+\eta_{pv} = \frac{P_{electrical}}{P_{incident}} = \frac{\int_{\lambda_g}^{\lambda_{max}} \eta_q(\lambda) \cdot \Phi(\lambda, T) \cdot E_{\text{photon}}(\lambda) \cdot d\lambda}{\int_{0}^{\infty} \varepsilon(\lambda) \cdot I(\lambda, T) \cdot d\lambda}
 $$
 
 Where:  
