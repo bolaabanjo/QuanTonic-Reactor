@@ -58,9 +58,11 @@ $$
 $$
 
 Thus, the photon flux density Φ(λ, T) is given by:
+
 $$
 \Phi_{\text{total}}(T) = \int_{\lambda_g}^{\lambda_{max}} \frac{\varepsilon(\lambda) \cdot I(\lambda, T)}{hc/\lambda} \cdot d\lambda
 $$
+
   Φ(λ, T) = I(λ, T) / E_photon(λ)  
       = (I(λ, T) * λ) / hc
 
