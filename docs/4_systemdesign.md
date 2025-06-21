@@ -156,10 +156,10 @@ All layers are fabricated using standard semiconductor deposition methods (CVD, 
 
 ## Conclusion
 
-The QuanTonic Reactor is not merely a theoretical system — it is a carefully engineered platform ready for R&D prototyping. Its architecture is designed for:
+The QuanTonic Reactor is not merely a theoretical system- it is a carefully engineered platform ready for R&D prototyping. Its architecture is designed for:
 - Clean modularity
 - Scalable deployment
 - Deep AI integration
 - High thermodynamic integrity
 
-With its spectrally engineered core and intelligent feedback design, it represents a revolutionary approach to energy generation — optimized not just for watts, but for entropy, intelligence, and adaptability.
+With its spectrally engineered core and intelligent feedback design, it represents a revolutionary approach to energy generation, optimized not just for watts, but for entropy, intelligence, and adaptability.
