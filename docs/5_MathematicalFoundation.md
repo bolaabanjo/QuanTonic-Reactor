@@ -124,8 +124,13 @@ This exergy metric provides a more realistic upper bound than the ideal Carnot e
 
 The spectral emissivity function ε(λ) is central to system performance. An ideal emissivity profile would look like a step function:
 
-  ε(λ) = 1 for λ_g ≤ λ ≤ λ_max  
-  ε(λ) = 0 otherwise
+$$
+\varepsilon(\lambda) =
+\begin{cases}
+1, & \lambda_g \leq \lambda \leq \lambda_{\text{max}} \\
+0, & \text{otherwise}
+\end{cases}
+$$
 
 In practice, ε(λ) is shaped through nanostructured surface coatings, photonic crystals, and metamaterials. The goal is to narrow the emission bandwidth and align it with the PV spectral response.
 
