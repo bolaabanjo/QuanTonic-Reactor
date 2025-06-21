@@ -63,13 +63,10 @@ $$
 \Phi_{\text{total}}(T) = \int_{\lambda_g}^{\lambda_{max}} \frac{\varepsilon(\lambda) \cdot I(\lambda, T)}{hc/\lambda} \cdot d\lambda
 $$
 
-  Φ(λ, T) = I(λ, T) / E_photon(λ)  
-      = (I(λ, T) * λ) / hc
-
 The total photon flux over the photovoltaic-active band is:
 
 $$
-Φ_total(T) = ∫ from λ_g to λ_max [(ε(λ)I(λ, T)λ) / hc] dλ
+\Phi_{\text{total}}(T) = \int_{\lambda_g}^{\lambda_{\text{max}}} \frac{\varepsilon(\lambda) \cdot I(\lambda, T) \cdot \lambda}{hc} \, d\lambda
 $$
 
 Where λ_g is the wavelength corresponding to the PV material’s bandgap.
