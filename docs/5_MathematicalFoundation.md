@@ -112,9 +112,6 @@ $$
 $$
 T_h = \text{Temperature of the Quantum Thermal Emitter (QTE)}
 $$
-
-\\ 
-
 $$
 T_c = \text{Temperature of the PV layer or thermal sink}
 $$
