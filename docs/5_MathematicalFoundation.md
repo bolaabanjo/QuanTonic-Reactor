@@ -142,7 +142,9 @@ Tuning ε(λ) is one of the most promising areas for AI-driven optimization, as 
 
 To dynamically optimize system performance, the Adaptive AI-Coupled Photovoltaic Layer (AAPL) uses a reward-maximization framework. The AI agent’s objective is:
 
-  Maximize R(t) = η_pv(t) - α * ΔT(t) - β * σ(t)
+$$
+\max R(t) = \eta_{\text{pv}}(t) - \alpha \cdot \Delta T(t) - \beta \cdot \sigma(t)
+$$
 
 Where:  
 - R(t) is the real-time reward function  
