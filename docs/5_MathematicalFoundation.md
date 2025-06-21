@@ -26,7 +26,10 @@ Where:
 
 However, the QTE is designed with a wavelength-specific emissivity function ε(λ), which modifies the ideal spectrum. The actual radiance becomes:
 
-  I_actual(λ, T) = ε(λ) * I(λ, T)
+$$
+I_{\text{actual}}(\lambda, T) = \varepsilon(\lambda) \cdot I(\lambda, T)
+$$
+
 
 This allows the system to suppress unwanted frequencies (waste photons) and enhance those that align with the photovoltaic absorption band.
 
