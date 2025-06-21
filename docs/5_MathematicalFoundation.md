@@ -53,7 +53,9 @@ The design goal is to maximize this partial integral while minimizing energy out
 
 Photon flux is the number of photons striking the PV layer per unit area per unit time, within the useful spectrum. Each photon has energy given by:
 
-  E_photon(λ) = hc / λ
+$$
+\Phi(\lambda, T) = \frac{I(\lambda, T)}{hc/\lambda}
+$$
 
 Thus, the photon flux density Φ(λ, T) is given by:
 
