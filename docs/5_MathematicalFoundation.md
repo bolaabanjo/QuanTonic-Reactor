@@ -85,9 +85,15 @@ $$
 \eta_{pv} = \frac{P_{electrical}}{P_{incident}} = \frac{\int_{\lambda_g}^{\lambda_{max}} \eta_q(\lambda) \cdot \Phi(\lambda, T) \cdot E_{\text{photon}}(\lambda) \cdot d\lambda}{\int_{0}^{\infty} \varepsilon(\lambda) \cdot I(\lambda, T) \cdot d\lambda}
 $$
 
-Where:  
-- P_electrical = ∫ from λ_g to λ_max [η_q(λ) * Φ(λ, T) * E_photon(λ)] dλ  
-- P_incident = ∫ from 0 to ∞ [ε(λ) * I(λ, T)] dλ
+Where:
+
+$$
+P_{\text{electrical}} = \int_{\lambda_g}^{\lambda_{\text{max}}} \eta_q(\lambda) \cdot \Phi(\lambda, T) \cdot E_{\text{photon}}(\lambda) \, d\lambda
+$$
+
+$$
+P_{\text{incident}} = \int_{0}^{\infty} \varepsilon(\lambda) \cdot I(\lambda, T) \, d\lambda
+$$
 
 This ratio captures the effectiveness of spectral alignment, emitter design, and quantum absorption efficiency across the active PV surface.
 
