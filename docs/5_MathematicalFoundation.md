@@ -39,7 +39,9 @@ This allows the system to suppress unwanted frequencies (waste photons) and enha
 
 We define the useful spectral range as the band of wavelengths that correspond to the energy bandgap of the PV layer. The total power emitted within this target window is computed via:
 
-  P(λ₁ → λ₂, T) = ∫ from λ₁ to λ₂ [ε(λ) * I(λ, T)] dλ
+$$
+P_{\lambda_1 \rightarrow \lambda_2}(T) = \int_{\lambda_1}^{\lambda_2} \varepsilon(\lambda) \cdot I(\lambda, T) \cdot d\lambda
+$$
 
 Where λ₁ and λ₂ are the lower and upper bounds of the selected wavelength range, respectively.
 
