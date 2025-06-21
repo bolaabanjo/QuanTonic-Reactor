@@ -82,7 +82,7 @@ The photovoltaic (PV) layer converts incident photons to electrical current. The
 The photovoltaic efficiency η_pv is expressed as:
 
 $$
- η_pv = P_electrical / P_incident
+\eta_{\text{pv}} = \frac{P_{\text{electrical}}}{P_{\text{incident}}}
 $$
 
 Where:  
