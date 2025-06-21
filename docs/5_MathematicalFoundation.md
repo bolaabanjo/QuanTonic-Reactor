@@ -105,11 +105,14 @@ To evaluate the energy quality — not just the quantity — we turn to the conc
 
 A simplified exergy efficiency model between two thermal reservoirs is:
 
-  η_ex = [1 - (T_c / T_h)] / [1 + (4/3) * (T_c / T_h)]
+$$
+\eta_{\text{ex}} = \frac{1 - \left(\frac{T_c}{T_h}\right)}{1 + \frac{4}{3} \cdot \left(\frac{T_c}{T_h}\right)}
+$$
 
-Where:  
-- T_h is the high temperature of the QTE  
-- T_c is the temperature of the PV layer or thermal sink
+$$
+T_h = \text{Temperature of the Quantum Thermal Emitter (QTE)} \\
+T_c = \text{Temperature of the PV layer or thermal sink}
+$$
 
 This exergy metric provides a more realistic upper bound than the ideal Carnot efficiency, especially in systems dominated by radiative heat transfer.
 
