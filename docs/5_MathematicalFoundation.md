@@ -80,9 +80,11 @@ Photon flux is critical for calculating current density and estimating the theor
 The photovoltaic (PV) layer converts incident photons to electrical current. The ideal quantum efficiency function η_q(λ) represents the probability that an incident photon is absorbed and converted into an electron-hole pair.
 
 The photovoltaic efficiency η_pv is expressed as:
+
 $$
  η_pv = P_electrical / P_incident
 $$
+
 Where:  
 - P_electrical = ∫ from λ_g to λ_max [η_q(λ) * Φ(λ, T) * E_photon(λ)] dλ  
 - P_incident = ∫ from 0 to ∞ [ε(λ) * I(λ, T)] dλ
