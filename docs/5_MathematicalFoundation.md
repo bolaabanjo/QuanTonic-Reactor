@@ -12,7 +12,9 @@ The foundation of the QuanTonic Reactor lies in its Quantum Thermal Emitter (QTE
 
 The baseline spectral radiance of an ideal blackbody is described by Planck's Law:
 
-  I(λ, T) = (2hc² / λ⁵) * [1 / (exp(hc / λkT) - 1)]
+$$
+I(\lambda, T) = \frac{2hc^2}{\lambda^5} \cdot \frac{1}{e^{\frac{hc}{\lambda k T}} - 1}
+$$
 
 Where:  
 - I(λ, T) is the spectral radiance (W/m²·sr·m)  
