@@ -110,7 +110,8 @@ $$
 $$
 
 $$
-T_h = \text{Temperature of the Quantum Thermal Emitter (QTE)}\\T_c = \text{Temperature of the PV layer or thermal sink}
+T_h = \text{Temperature of the Quantum Thermal Emitter (QTE)}
+\\T_c = \text{Temperature of the PV layer or thermal sink}
 $$
 
 This exergy metric provides a more realistic upper bound than the ideal Carnot efficiency, especially in systems dominated by radiative heat transfer.
