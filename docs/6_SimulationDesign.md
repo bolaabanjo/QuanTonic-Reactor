@@ -147,6 +147,7 @@ All visualizations will be generated with Matplotlib and saved to a /visuals/ di
 
 ## 8. File Structure
 
+```bash
 /simulation/
 ├── core_math/
 │   └── planck_emission.py
@@ -162,7 +163,7 @@ All visualizations will be generated with Matplotlib and saved to a /visuals/ di
 ├── configs/
 │   └── default_params.yaml
 └── main_simulation.py
-
+```
 
 This structure ensures modular development and scalable testing.
 
@@ -171,3 +172,5 @@ This structure ensures modular development and scalable testing.
 ## Next Step
 
 We will now initialize the simulation environment by writing the Planck integrator and emissivity-driven emission module — the foundation for spectral simulation. This will form the start of Phase I: Static System Modeling.
+
+
