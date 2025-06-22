@@ -146,6 +146,7 @@ All visualizations will be generated with Matplotlib and saved to a /visuals/ di
 ---
 
 ## 8. File Structure
+
 /simulation/
 ├── core_math/
 │   └── planck_emission.py
@@ -161,6 +162,7 @@ All visualizations will be generated with Matplotlib and saved to a /visuals/ di
 ├── configs/
 │   └── default_params.yaml
 └── main_simulation.py
+
 
 This structure ensures modular development and scalable testing.
 
