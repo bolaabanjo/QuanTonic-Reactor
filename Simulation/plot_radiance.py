@@ -1,14 +1,3 @@
-#!/usr/bin/env python3
-"""
-plot_radiance.py
-
-Plots spectral radiance curves of:
-1. Ideal blackbody emission I(λ)
-2. Emissivity-filtered emission I_mod(λ)
-
-Used to visualize the spectral behavior of the QuanTonic Reactor's emitter system.
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 from planck_emission import planck_spectral_radiance, modified_radiance
