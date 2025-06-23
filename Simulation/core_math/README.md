@@ -69,7 +69,10 @@ $$
 - Emissive band = [0.4 µm – 1.1 µm]
 
 **Results:**
-Ideal blackbody power:           7.624e+04 W/m²·sr // Emissivity-filtered power:       2.202e+03 W/m²·sr
+```bash
+Ideal blackbody power:           7.624e+04 W/m²·sr 
+Emissivity-filtered power:       2.202e+03 W/m²·sr
+```
 
 **Usable energy ratio:**  
 
