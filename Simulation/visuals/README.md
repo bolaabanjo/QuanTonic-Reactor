@@ -3,6 +3,10 @@
 ## Location
 `/simulation/visuals/plot_radiance.py`
 
+---
+
+[Spectral Radiance Plot](radiance_plot.png)
+
 ## Purpose
 
 This module visualizes the spectral behavior of the QuanTonic Reactor’s emitter using Planck’s Law and a defined emissivity window. It provides visual insight into the difference between total thermal emission and the portion usable by the PV system.
