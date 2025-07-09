@@ -1,6 +1,7 @@
 # QuanTonic Reactor (QT Reactor)
 
 **A Quantum-Coherent Thermophotovoltaic Reactor for Ultra-Efficient Energy Conversion**
+![QT-reactor core render](https://raw.githubusercontent.com/bolaabanjo/QuanTonic-Reactor/main/visuals/QTExploded.jpeg)
 
 > This is a live, mobile-first research project built entirely on a phone. Every simulation, paper, and milestone is documented here.
 
