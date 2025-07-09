@@ -4,6 +4,8 @@
 
 > This is a live, mobile-first research project built entirely on a phone. Every simulation, paper, and milestone is documented here.
 
+![image](https://github.com/user-attachments/assets/17acd7e4-d984-4971-b82c-58d9b51317d4)
+
 [QuanTonic Reactor](https://github.com/bolaabanjo/QuanTonic-Reactor/blob/fd96747cc9d80812aac6e5747f64ccdf75845f47/Simulation/visuals/QTR.jpeg)
 
 # Overview
