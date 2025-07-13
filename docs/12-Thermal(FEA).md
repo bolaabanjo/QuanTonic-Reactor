@@ -26,9 +26,11 @@ The total simulated length is 0.018 meters (18 mm), with discrete node analysis 
 
 A finite difference method (FDM) was used to approximate the 1D heat conduction equation:
 
+$$
 \[
 -\frac{d}{dx} \left( k(x) \frac{dT}{dx} \right) = 0
 \]
+$$
 
 Boundary conditions:
 - Left boundary (emitter surface): **1800 K**
