@@ -48,7 +48,7 @@ This implies an incredibly efficient conversion system, capable of generating **
 
 The figure below illustrates how voltage and current behave under load, and where maximum power is extracted:
 
-![TPV I–V Curve](../visuals/QT-reactor_TPV_IV_Curve.png)
+![TPV I–V Curve](https://github.com/bolaabanjo/QuanTonic-Reactor/blob/5fa81cfc39795b1d4897eaccd46017589f7f6b5d/Simulation/visuals/QT%20Reactor%20TPV%20IV%20Curve.png)
 
 - **Red Curve:** Current vs. Voltage (I–V)  
 - **Blue Dashed Curve:** Power vs. Voltage (P–V)  
