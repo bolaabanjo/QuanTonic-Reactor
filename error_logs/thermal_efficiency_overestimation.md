@@ -1,67 +1,75 @@
-# Error Log – Thermal Efficiency Overestimation
-Date: 2025-07-09  
+# Error Log – Thermal Efficiency Overestimation  
+Date: 2025-07-15
 Logged under: `/error_logs/thermal_efficiency_overestimation.md`
 
 ---
 
 ## Context
 
-While performing the energy balance simulation in Section 15 of the QT-Reactor project, we encountered a significant deviation between the projected electrical output and the calculated thermal input — exceeding physical limits.
+During the energy balance modeling in Section 15 of the QT-Reactor project, we attempted to simulate the thermal-to-electrical efficiency of the system using theoretical values derived from ideal photonic behavior.
+
+The initial simulation was performed using a **1 cm² emitter area**, then recalculated at **1 m² scale** to align with realistic system-level power densities.
 
 ---
 
-## Simulation Summary
+## Phase 1: Initial Anomaly
 
-**Inputs:**
-- Emitter temperature: 1800 K  
-- Emitter area: 1.0 m²  
-- Filtered radiative power: 6,917.79 W (6.9 kW)  
-- Total blackbody thermal power: 595,253 W (595.3 kW)
+**Emitter Area:** 1 cm²  
+**Emitter Temp:** 1800 K  
+**Thermal Input (ideal):** ~59.53 W  
+**Filtered Output:** ~0.69 W  
+**Electrical Output (TPV):** 1240.05 W  
 
-**Simulated Output:**
-- Electrical Output: 12,940,800 W (12.94 MW)
-
----
-
-## Issue
-
-The simulated electrical output exceeds both:
-
-- The **filtered thermal power** (6.9 kW)
-- The **total thermal input** (595.3 kW)
-
-This leads to an efficiency > 1000%, violating energy conservation.
+→ Calculated efficiency exceeded 179,000%  
+→ Conclusion: electrical output exceeds input — violates conservation laws
 
 ---
 
-## Cause
+## Phase 2: Unit Correction and Re-run
 
-The issue stems from using raw quantum current density (13.48 MA/m²) without compensating for:
+To rule out scale mismatch, we re-ran the simulation using:
 
-- Non-ideal spectral absorption  
-- Sub-bandgap photon rejection  
-- Recombination losses  
-- Heat management inefficiencies  
-- Realistic system integration limits
+**Emitter Area:** 1 m²  
+**Thermal Input (ideal):** 595,253 W  
+**Filtered Output:** 6,917.79 W  
+**Electrical Output (TPV):** 12,940,800 W  
+
+→ Efficiency still exceeded 187,000%  
+→ Same physical contradiction persists despite corrected scale
+
+---
+
+## Root Cause
+
+We traced the anomaly to overestimation in the electrical output, which was derived from raw quantum current density (13.48 MA/m² at 0.96 V). That estimate did not account for:
+
+- Realistic photonic conversion efficiency  
+- Non-absorbed photons  
+- Carrier recombination losses  
+- Heat leakage  
+- Optical-electrical coupling inefficiencies
+
+This resulted in an **unphysically high output** that overshot even the full thermal budget of the system.
 
 ---
 
 ## Resolution Plan
 
-This entry is retained as a record of modeling overshoot.  
-A recalibrated simulation will follow using:
+We will recalibrate the electrical output using a physically realistic efficiency range (30–50%) based on:
 
-- Targeted conversion efficiency range of 30–50%  
-- TPV performance derived from real material physics  
-- Optical + electrical coupling losses modeled explicitly
+- TPV material properties (e.g., GaSb bandgap behavior)  
+- Filtered photon flux  
+- Measured quantum efficiency  
+- Losses due to thermal radiation and non-conversion
+
+This recalibrated model will be used in the finalized Section 15 and all downstream subsystems (thermal recovery, radiator sizing, recycling optics, etc).
 
 ---
 
-## Importance of Logging
+## Why This Is Logged
 
-Rather than deleting or overriding this result, we’ve chosen to log it separately to:
+Rather than deleting or hiding this modeling error, we’ve chosen to log it here to:
 
-- Preserve the development trail  
-- Show transparency in research  
-- Encourage reproducibility and peer review  
-- Reinforce our commitment to scientific integrity
+- Demonstrate an iterative and accountable research process  
+- Serve as a reproducible checkpoint for future collaborators  
+- Reinforce scientific credibility and systems engineering discipline
